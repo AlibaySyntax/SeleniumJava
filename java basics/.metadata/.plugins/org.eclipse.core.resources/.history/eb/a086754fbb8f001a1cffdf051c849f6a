@@ -1,0 +1,21 @@
+package com.syntax33ExceptionHandling;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ProcessDataFromXL {
+
+public static void main(String[] args) throws IOException {
+		
+String file=System.getProperty("user.dir")+"/testdata/Test.xlsx";
+FileInputStream fis =new FileInputStream(file);
+
+Workbook book=new XSSFWorkbook(fis);
+
+}
+
+}

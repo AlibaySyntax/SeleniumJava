@@ -1,0 +1,16 @@
+package com.syntax32ExelReading;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class ReadEXCEL {
+
+public static void main(String[] args) throws FileNotFoundException {
+		
+	String filePath="/Users/apple/Documents/Test.xlsx";
+	FileInputStream fis=new FileInputStream(filePath);
+	
+//Get an Object of Workbook type	
+	
+}
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode&gt;=java basics/src&amp;lt;NameSyntax{Arithmaticals.java[Arithmaticals&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=java basics/src&amp;lt;com.syntax03{AdditionVsConcatenation.java[AdditionVsConcatenation&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=java basics/src&amp;lt;com.syntax12{quizz1.java[quizz1~main~\[QString;[output&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=java basics/src&amp;lt;com.syntax25Interface{MyFunctionalInterface.java[MyFunctionalInterface~main~\[QString;=)=&amp;quot;Lcom.syntax25Interface.MyFunctionalInterface;!266!280!274=&amp;amp;addMethod!2=&amp;quot;I=&amp;quot;a=&amp;quot;I=&amp;quot;b=&amp;quot;I=&amp;quot;Lcom\/syntax25Interface\/MyFunctionalInterface;.addMethod\(II)I@a!267!267!267!267!I!0!true@b!270!270!270!270!I!0!true=)&lt;/infoNode&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="420"/>
+			<item key="DIALOG_Y_ORIGIN" value="83"/>
+			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		</section>
+	</section>
+	<section name="expressionHistory">
+	</section>
+	<section name="conditionHistory">
+	</section>
+</section>

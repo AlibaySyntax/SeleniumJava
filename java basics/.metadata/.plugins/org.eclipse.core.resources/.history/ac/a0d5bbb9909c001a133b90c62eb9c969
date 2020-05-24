@@ -1,0 +1,18 @@
+package TestNGSecond;
+
+public class HW {
+
+@BeforMethod
+public void beforMethod() {
+	
+}
+@AfterMethod 
+public void afterMethod() {
+	
+}
+@Test
+public void validLogin() {
+WebElement  username=
+}
+}
+

@@ -1,0 +1,19 @@
+package com.syntax33ExceptionHandling;
+
+public class InfoAboutException {
+
+public static void main(String[] args) {
+		
+String str="Hello";
+
+try {
+char character=str.charAt(10);//=new StringIndexOutOfBoundsException():
+System.out.println(character);
+}catch(StringIndexOutOfBoundsException se) {
+//To get info about the Exception
+se.printStackTrace();// name,message about E, where it occurs
+System.out.println(se);
+}
+System.out.println("---END OF THE PROGRAM---");
+}
+}

@@ -1,0 +1,29 @@
+package com.syntax30MAP;
+
+public class Empty {
+
+private String name="John";
+private String address="Charlestone";
+
+public String getName() {
+	return name;
+}
+public String getAddress() {
+	return address;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public void setAddress(String address) {
+	this.address = address;
+}
+/**
+ * @param name
+ * @param address
+ */
+public Empty(String name, String address) {
+	super();
+	this.name = name;
+	this.address = address;
+}
+}

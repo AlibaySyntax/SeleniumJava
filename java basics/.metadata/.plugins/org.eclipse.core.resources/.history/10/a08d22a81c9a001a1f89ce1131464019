@@ -1,0 +1,36 @@
+package com.syntax.syntaxREPL;
+
+import java.util.Scanner;
+
+public class Test23BooleanTrueFalse {
+
+public static void main(String[] args) {
+		
+boolean isTrue = true;
+boolean isFalse = false;
+
+
+Scanner scan=new Scanner(System.in);
+
+//boolean isTrue =true;
+//boolean isFalse = true;
+
+System.out.println("Input the boolean value");
+
+if(isTrue) {
+System.out.println("The value is "+isTrue);
+//System.out.println();
+//System.out.println("Input the boolean value");
+if(isFalse){
+System.out.println("The value is "+isFalse);
+}else {
+	System.out.println("W");
+
+
+
+}
+}}}
+
+
+
+

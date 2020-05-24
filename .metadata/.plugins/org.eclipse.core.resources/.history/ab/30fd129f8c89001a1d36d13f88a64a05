@@ -1,0 +1,48 @@
+package REPLtest;
+
+import java.awt.List;
+
+public class Test173Try {
+	// Java program to demonstrate encapsulation 
+	//public class Encapsulate 
+	//{ 
+	    // private variables declared  
+	    // these can only be accessed by  
+	    // public methods of class 
+	    private String getName="John"; 
+	    private  int getAge=30; 
+
+	   // public  int getAge(int getAge)  
+	    //{ 
+	     // return getAge; 
+	    //} 
+	    public String getName(String getName)  
+	    { 
+	      return getName; 
+	    }
+	    public class TestEncapsulation {
+	    }
+	        public static void main (String[] args)  { 
+	        	Test173Try obj = new Test173Try();
+	        	
+	            // setting values of the variables  
+	            obj.getName("John"); 
+	            obj.getAge(30); 
+	            
+	              
+	            // Displaying values of the variables 
+	            //System.out.println("Employee Name: " + obj.getName()); 
+	            //System.out.println("Employee Age: " + obj.getAge()); 
+	           	
+			
+	        }
+			private String getName() {
+				System.out.println("Employee Age: " + getName());
+				return getName;
+			}
+			private int getAge() {
+				//return getAge;
+				System.out.println("Employee Name: " + getAge());	
+				return getAge;	
+	    }
+}

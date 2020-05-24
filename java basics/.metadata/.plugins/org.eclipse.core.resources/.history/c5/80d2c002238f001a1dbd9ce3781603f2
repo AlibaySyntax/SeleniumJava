@@ -1,0 +1,20 @@
+package com.syntax32ExelReading;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class EXCELintro {
+
+public static void main(String[] args) throws IOException {
+		
+String filePath="/Users/apple/Documents";
+FileInputStream fis=new FileInputStream(filePath);
+
+Workbook wbook=new XSSFWorkbook(fis);
+
+
+}
+}

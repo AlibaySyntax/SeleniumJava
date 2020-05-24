@@ -1,0 +1,12 @@
+package testNGIntro;
+
+
+
+public class TestAndrey {
+	
+@Test
+public void andreyMethod {
+	
+}
+
+}

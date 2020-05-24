@@ -1,0 +1,19 @@
+package com.syntax34ExceptionHandlingAndFuncDev;
+public class TryCatchFinaly {
+
+public static void main(String[] args) {
+	
+division (10,5);
+division (10,0);
+}
+public static void division (int num, int num1) {
+
+try {
+System.out.println(num/num1);//new ArithmeticException();
+}catch(ArithmeticException ae) {
+ae.printStackTrace();//detailed message of an exception
+System.out.println(ae.getMessage());//message of an exception
+System.out.println(ae);
+}
+}
+}

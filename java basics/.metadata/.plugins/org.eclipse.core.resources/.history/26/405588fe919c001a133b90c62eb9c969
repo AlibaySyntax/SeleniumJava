@@ -1,0 +1,23 @@
+package com.test01;
+
+public class AfterClass {
+
+public static void main(String[] args) {
+		
+}
+		
+@afterMethod	
+public void afterMethod() {
+System.out.println("After Method");
+}
+public void beforeMethod() {
+//BayramGul();
+System.out.println("Before Method");
+}
+@aftermethod
+public void afterMethod() {
+System.out.println("After Method");	
+
+}
+
+}

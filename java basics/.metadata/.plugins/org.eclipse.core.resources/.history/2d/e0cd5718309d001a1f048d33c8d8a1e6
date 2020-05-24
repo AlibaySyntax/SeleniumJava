@@ -1,0 +1,20 @@
+package testNGSecond;
+import com.Utils.BaseClass;
+import com.pages.AddEmployeePageElements;
+//initialize all page class and stores reference in static var
+//that will called/used in test 
+public class PageInitializer extends BaseClass{
+	
+public static LoginPageElements login;
+public static AddEmplyeePageElements addEmp;
+public static DashboardPageElements dashboard;
+public static PersonalDetailsPageElement pdetails;
+
+public static void initialize() {
+
+login=new LoginPageElements();
+dashboard=new DashboardPageElements();
+addEmp= new AddEmploeePageElements();
+pdetails=new PersonalDetailsPageElements();
+}
+}

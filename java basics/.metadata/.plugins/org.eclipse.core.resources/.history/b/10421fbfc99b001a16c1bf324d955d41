@@ -1,0 +1,16 @@
+package testNGSecond;
+
+public class CommonMethods {
+
+@BeforeMethod
+public void openBrowserAndNavigate() {
+setUp(){
+}
+@AfterMethod
+public void quitBrowser() {
+tearDown(){	
+}
+@Test
+public void 
+}
+}

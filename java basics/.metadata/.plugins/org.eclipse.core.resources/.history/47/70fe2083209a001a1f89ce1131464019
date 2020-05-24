@@ -1,0 +1,24 @@
+package com.syntax.syntaxREPL;
+
+import java.util.Scanner;
+
+public class Test23Second {
+
+public static void main(String[] args) {
+	
+Scanner scan=new Scanner(System.in);
+//System.out.println("Input the boolean value");
+//String Weqas=scan.nextLine();  
+boolean isTrue=true;
+boolean isFalse=true;
+//if(isTrue) {
+//System.out.println("The value is true");
+if(isTrue || !isFalse) {
+System.out.println("Input the boolean value");	
+System.out.println("The value is true");
+if(!isTrue || isFalse){
+System.out.println("Input the boolean value");	
+System.out.println("The value is false");
+}
+}}}
+

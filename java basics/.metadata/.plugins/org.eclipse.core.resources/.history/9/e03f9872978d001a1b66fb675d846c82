@@ -1,0 +1,31 @@
+package REPLtest;
+import java.util.Scanner;
+public class Test36 {
+
+	public static void main(String[] args) {
+		
+		        String word1 = null;
+		        String word2 = null;
+		       
+		        int int1 = 0;
+		        int int2 = 0;
+		        
+		        String output;
+	
+		        Scanner scan=new Scanner(System.in);
+		        System.out.println("Please enter two numbers");
+	
+	               
+		                    if (int1==int2 && word1.equals(word2)) {
+		                    	System.out.println("AND");}
+			            	if (int1==int2 || word1.equals(word2)) {  	  
+			            		  System.out.println("OR");}
+			            	if (!(int1==int2) && !(word1.equals(word2))) { 
+			            		System.out.println("NOT");{
+			            		
+			            			
+			            		}}}}
+			            		
+			            	
+
+

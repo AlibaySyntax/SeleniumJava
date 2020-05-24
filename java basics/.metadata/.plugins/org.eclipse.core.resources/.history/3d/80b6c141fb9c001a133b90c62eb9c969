@@ -1,0 +1,12 @@
+package testNGIntro;
+
+
+
+public class DifferebtAnnotation {
+	
+@Test
+public void andreyMethod {
+	
+}
+
+}

@@ -1,0 +1,31 @@
+package testNGSecond;
+
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.Utils.CommonMethods;
+import com.Utils.ConfigsReader;
+
+public class LoginTest<DashboardPageElements> extends CommonMethods {
+@BeforeMethod
+public void openBrowser() {
+setUp();
+}
+@AfterMethod
+public void closeBrowser() {
+tearDown();	
+}
+@Test
+public void  validAdminLogin() {
+LoginPageElements login=new LoginPageElements();
+sendText(login.username,ConfigsReader.getProperty("username"));
+sendText(login.password,ConfigsReader.getProperty("password"));
+click(login.loginBtn);
+
+DashboardPageElements db=new DashboardPageElements();
+String exceptedUser="Welcome Admin";
+String actualUser=db.welcome.
+
+}
+}

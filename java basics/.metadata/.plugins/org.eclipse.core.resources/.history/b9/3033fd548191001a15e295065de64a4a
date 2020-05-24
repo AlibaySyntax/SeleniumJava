@@ -1,0 +1,12 @@
+package syntax.math;
+
+public class TestClass {
+
+public static void main(String[] args) {
+		
+//Calculator cal=new Calculator();
+System.out.println(Calculator.mul(1290, 64));
+
+}
+}
+

@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+/**
+ * @author apple
+ *
+ */
+module SeleniumJava {
+	requires okio;
+}

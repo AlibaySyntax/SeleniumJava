@@ -1,0 +1,10 @@
+package com.syntax.class04BooleanNested;
+
+public class SimpleBoolean {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

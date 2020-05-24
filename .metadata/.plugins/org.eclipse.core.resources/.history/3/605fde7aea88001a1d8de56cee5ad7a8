@@ -1,0 +1,52 @@
+package REPLtests;
+import java.util.*;
+import java.util.Map.Entry;
+public class Test203HashMapSet {
+public static void main(String[] args) {
+		
+HashMap<String,String> map=new HashMap();
+map.put("ONE ","AAA ");
+map.put("TWO ","BBB ");
+map.put("THREE ","CCC ");
+map.put("FOUR ","DDD ");
+map.put("FIVE ","EEE ");
+//System.out.println("HashMap Before Replace : ");
+
+Set<Entry<String, String>> mapa = map.entrySet(); 
+System.out.println("HashMap Before Replace : ");
+for(Map.Entry<String,String> mapo : mapa){ 
+String key = mapo.getKey(); 
+String value = mapo.getValue();
+
+System.out.println(mapo.getKey()+" "+mapo.getValue());
+}
+System.out.println("---------------------------");
+
+ResourceBundle properties = ResourceBundle.getBundle("KeyMapping");
+
+Enumeration<String> newKeys = properties.getKeys();
+   //Map<String, String> result = new HashMap<>();
+
+  while (newKeys.hasMoreElements()) {
+    String newKey = (String) newKeys.nextElement();
+    Iterator<Entry<String,String>> iterator = map.entrySet().iterator();      ///mapToReplaceKeys
+
+    while(iterator.hasNext()) {
+       Entry<String,String> entry = iterator.next();
+
+//Iterator<Entry<String, String>>org =  map.entrySet().iterator();
+//("THREE","ASEL");
+map.put("FIVE","SUMAIR");
+map.put("THREE","ASEL");
+Set<Entry<String, String>> maps = map.entrySet(); 
+System.out.print("HashMap After Replace : ");
+for(Map.Entry<String,String> mapu : maps){
+for(int i=1; i<=5;i++);
+String TREE = mapu.getKey(); 
+String ASEL = mapu.getValue(); 
+//System.out.println("HashMap After Replace :");
+
+//System.out.println(mapu.getKey()+": "+mapu.getValue() );
+System.out.println(TREE+":"+ASEL);
+}
+}}}}

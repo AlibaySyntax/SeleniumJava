@@ -1,0 +1,31 @@
+package syntax.math;
+public class Calculator {
+/*
+ * Use this method in need of adding two number together
+ * @param x first number
+ * @param y second number
+ * @return Returns the result of addition
+ */	
+public static int add(int x,int y) {
+return x+y;
+}
+/*
+* Use this method in need of multiplying two number together
+* @param x first number
+* @param y second number
+* @return Returns the result of multiplication
+*/		
+public static int mul(int x,int y) {
+return x*y;
+}
+////////////////////////////////////
+public static int sub(int x,int y) {
+return x-y;
+}
+////////////////////////////////////
+public static int div(int x,int y) {
+return x/y;
+}
+}
+
+

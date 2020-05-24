@@ -1,0 +1,27 @@
+package REPLtests;
+import java.util.*;
+public class Test203 {
+
+	public static void main(String[] args) {
+ /* * Java Program to remove mapping from HashMap while Iterating * using Iterator's remove() method */ 
+ Map<String, String> map = new HashMap<>(); 
+ map.put("ONE","AAA"); 
+ map.put("TWO","BBB"); 
+ map.put("THREE","CCC"); 
+ map.put("FOUR","DDD"); 
+ map.put("FIVE","EEE"); 
+ // Map - before removing a mapping System.out.println("before: " + certificationCost); 
+ // let's use Iterator to remove a key from HashMap while iterating 
+ Iterator<String> iterator = map.keySet().iterator(); 
+ while(iterator.hasNext()){ 
+ String map1 = iterator.next(); 
+ if(map1.contains("OCMJEA")){ 
+ iterator.remove(); 
+} } 
+ // Map - after removing a mapping 
+ System.out.println("after: " + map); 
+ } } 
+
+			
+
+	

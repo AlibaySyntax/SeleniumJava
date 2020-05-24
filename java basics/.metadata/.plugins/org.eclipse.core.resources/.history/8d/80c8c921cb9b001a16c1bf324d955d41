@@ -1,0 +1,12 @@
+package testNGSecond;
+
+import org.testng.annotations.BeforeMethod;
+
+import com.Utils.CommonMethods;
+
+public class sauceDemo extends CommonMethods  {
+@BeforeMethod
+public void navigateToUrl() {
+setUp();
+}
+}

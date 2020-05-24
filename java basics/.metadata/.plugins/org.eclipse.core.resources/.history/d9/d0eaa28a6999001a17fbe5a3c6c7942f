@@ -1,0 +1,9 @@
+package com.syntax.syntax20This;
+
+import com.syntax.syntax20This.Car.Mercedes;
+
+public class Merced extends Mercedes {
+	
+String Merced="Car";
+
+}

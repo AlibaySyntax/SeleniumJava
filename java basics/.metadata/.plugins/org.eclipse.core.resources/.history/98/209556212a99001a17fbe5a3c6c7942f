@@ -1,0 +1,5 @@
+package com.syntax.REPL;
+
+public interface function {
+
+}

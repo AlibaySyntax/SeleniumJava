@@ -1,0 +1,28 @@
+package Sel10Screenshot11a12;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.syntax.utils.CommonMethods;
+
+public class calendarHendling extends CommonMethods {
+
+public static void main(String[] args) {
+
+System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");	
+WebDriver driver=new ChromeDriver();
+
+driver.get("https//https://jqueryui.com/");
+WebElement datePickerLink=driver.findElement(By.xpath("//a[text()='Datepicker']"));
+wait(2);
+datePickerLink.click();
+WebElement frame =driver.findElement(By.className("demo-frame"));
+driver.switchTo().frame(frame);
+WebElement calendar =driver.findElement(By.id("datepicker"));
+click(calendar);
+
+}
+
+}

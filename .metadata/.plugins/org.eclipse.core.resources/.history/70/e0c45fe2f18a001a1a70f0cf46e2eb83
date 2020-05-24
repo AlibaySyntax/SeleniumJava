@@ -1,0 +1,10 @@
+package com.syntax.selenium01;
+
+public class LunchChrmeBrowser {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

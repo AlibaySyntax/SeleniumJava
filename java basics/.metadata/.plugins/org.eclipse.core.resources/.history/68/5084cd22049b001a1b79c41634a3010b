@@ -1,0 +1,36 @@
+package com.syntax.syntaxREPL;
+
+import java.util.Scanner;
+
+public class Test28 {
+
+	public static void main(String[] args) {
+		
+		Scanner input=new Scanner(System.in);
+		
+
+		System.out.println("Please enter the length ");
+		int rectangle=input.nextInt();
+		System.out.println("Please enter the width ");
+		int object=input.nextInt();
+		int length = 0;
+		int width = 0;
+		if(length<width) {
+		System.out.println("The shape of your object is rectangle");
+	//}else {
+		
+		
+		
+		System.out.println();
+		
+		System.out.println("Please enter the length ");
+		int square=input.nextInt();
+		System.out.println("Please enter the width ");
+		int object1=input.nextInt();
+		int length1;
+		int width2;
+		if(length==width) {
+		System.out.println("The shape of your object is square");
+	}}}}
+
+

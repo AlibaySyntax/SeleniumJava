@@ -1,0 +1,49 @@
+package REPLtest;
+
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.*;
+import java.util.Map.Entry;
+
+
+public class Test203HashTRY {
+	private static void string_change(String args[])
+	 {
+	 try
+	 {
+	 File file = new File("input_file.txt");
+	 BufferedReader reader = new BufferedReader(new FileReader(file));
+	 String line = "", oldtext = "";
+	 while((line = reader.readLine()) != null)
+	     {
+	     oldtext += line + "\r\n";
+	 }
+	 reader.close();
+
+	 Map<String, String> ReplacementMap = new HashMap<String, String>();
+	 ReplacementMap.put("STRING1", "TEXT1");
+	 ReplacementMap.put("STRING2", "TEXT2");
+	 ReplacementMap.put("STRING3", "TEXT3");
+
+	 String originalString = oldtext;
+
+	 for (Map.Entry<String, String> entry : ReplacementMap.entrySet()) {
+	   StringBuilder builder =  new StringBuilder(originalString.replaceAll(entry.getKey(), entry.getValue()));
+
+	   String newtext = builder.toString();
+
+	 FileWriter writer = new FileWriter("output_file.txt");
+	 writer.write(newtext);
+	 writer.close();
+	 }
+
+	 }
+	 catch (IOException ioe)
+	 {
+	 ioe.printStackTrace();
+	 }
+}}

@@ -1,0 +1,28 @@
+package REPLtests;
+import java.util.*;
+public class Test204HashMap {
+
+public static void main(String[] args) {
+Map<String, Integer>maps=new HashMap();
+HashMap<String, Integer>map=new HashMap();
+map.put("Mango", 10);
+map.put("Apple", 30);
+map.put("Orange", 20);
+}
+public void display(String string) {
+display("GT");
+for(int i=0; i<=3; i++) {	
+//}
+int Item=i+1;
+System.out.println(i);
+}}}//}
+
+
+
+//Display ItemName GetItemMethod() {
+//Bill tab method btm;
+
+//select ItemMethod from btm
+//where btm.Custname==this.CustName;
+
+//return btm.ItemName

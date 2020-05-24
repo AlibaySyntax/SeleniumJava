@@ -1,0 +1,21 @@
+
+public class TryCatchFinally {
+
+public static int division(int num,int num1){
+
+int result=0;
+try {
+result=num/num1;//new ArithmeticException
+System.out.println(result);
+
+//}catch(ArithmeticException ae) {
+//ae.printStackTrace();
+//System.out.println(ae.getMessage());
+
+}finally {
+System.out.println("I am afinally block");
+	
+}	
+
+return result;
+}}
