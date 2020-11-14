@@ -1,0 +1,133 @@
+[1593051757.035][INFO]: Starting ChromeDriver 83.0.4103.14 (be04594a2b8411758b860104bc0a1033417178be-refs/branch-heads/4103@{#119}) on port 28230
+[1593051757.036][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1593051757.431][INFO]: [7bb15f593cce5a85c32961cc83c8c4ba] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1593051757.432][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1593051757.432][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1593051757.434][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension=/var/folders/_m/72sdf7sd5gd24ck4f4v6vk7r0000gp/T/.com.google.Chrome.nGwrjL/internal --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/_m/72sdf7sd5gd24ck4f4v6vk7r0000gp/T/.com.google.Chrome.rGQEZ9 data:,
+[1593051762.920][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1593051763.040][INFO]: [7bb15f593cce5a85c32961cc83c8c4ba] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "83.0.4103.116",
+      "chrome": {
+         "chromedriverVersion": "83.0.4103.14 (be04594a2b8411758b860104bc0a1033417178be-refs/branch-heads/4103@{#119})",
+         "userDataDir": "/var/folders/_m/72sdf7sd5gd24ck4f4v6vk7r0000gp/T/.com.google.Chrome.rGQEZ9"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:59197"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "7bb15f593cce5a85c32961cc83c8c4ba"
+}
+[1593051763.200][INFO]: [7bb15f593cce5a85c32961cc83c8c4ba] COMMAND Navigate {
+   "url": "https://www.aa.com/homePage.do"
+}
+[1593051763.200][INFO]: Waiting for pending navigations...
+[1593051763.201][INFO]: Done waiting for pending navigations. Status: ok
+[1593051765.665][INFO]: Waiting for pending navigations...
+[1593051769.194][INFO]: Done waiting for pending navigations. Status: ok
+[1593051769.195][INFO]: [7bb15f593cce5a85c32961cc83c8c4ba] RESPONSE Navigate
+[1593051769.208][INFO]: [7bb15f593cce5a85c32961cc83c8c4ba] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#resevationFlighSearchFrom\\.originAitport"
+}
+[1593051769.208][INFO]: Waiting for pending navigations...
+[1593051769.567][INFO]: Done waiting for pending navigations. Status: ok
+[1593051769.684][INFO]: Waiting for pending navigations...
+[1593051769.699][INFO]: Done waiting for pending navigations. Status: ok
+[1593051769.699][INFO]: [7bb15f593cce5a85c32961cc83c8c4ba] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#resevationFlighSearchFrom\.originAitport"}
+  (Session info: chrome=83.0.4103.116)

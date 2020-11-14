@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="RevNG5LoginPage.SauceDemoTest"/>
+      <class name="testNG2Assert.TaskOne"/>
+      <class name="testNG2Assert.LoginTest"/>
+      <class name="testNG2Assert.Mohamad"/>
+      <class name="com.Utils.BaseClass"/>
+      <class name="testNG3FrameworkEnh.HW"/>
+      <class name="testNG3FrameworkEnh.LoginTest"/>
+      <class name="testNG1Intro.DifferentAnnotation"/>
+      <class name="testNG1Intro.TestDemo"/>
+      <class name="testNG2Assert.SoftAssertionDemo"/>
+      <class name="testNG4Groups.GroupsDemo"/>
+      <class name="testNG3FrameworkEnh.sauceDemoTask"/>
+      <class name="testNG5.ListenetDemo"/>
+      <class name="testNG2Assert.HW"/>
+      <class name="testNG1Intro.TitleLogoAndLoginValidation"/>
+      <class name="testNG3FrameworkEnh.AddEmployeeTest"/>
+      <class name="testNG4Groups.DemoProvideDemo"/>
+      <class name="testNG1Intro.TaskTwo"/>
+    </classes>
+   
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

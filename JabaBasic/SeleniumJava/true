@@ -1,0 +1,196 @@
+[1591134331.868][INFO]: Starting ChromeDriver 83.0.4103.14 (be04594a2b8411758b860104bc0a1033417178be-refs/branch-heads/4103@{#119}) on port 39338
+[1591134331.869][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1591134332.197][INFO]: [cd71e8a5894b9afe15f1ea957b2aca21] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1591134332.199][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1591134332.199][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1591134332.201][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension=/var/folders/_m/72sdf7sd5gd24ck4f4v6vk7r0000gp/T/.com.google.Chrome.lRHeQk/internal --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/_m/72sdf7sd5gd24ck4f4v6vk7r0000gp/T/.com.google.Chrome.eVDIf2 data:,
+[1591134333.396][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1591134333.437][INFO]: [cd71e8a5894b9afe15f1ea957b2aca21] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "83.0.4103.61",
+      "chrome": {
+         "chromedriverVersion": "83.0.4103.14 (be04594a2b8411758b860104bc0a1033417178be-refs/branch-heads/4103@{#119})",
+         "userDataDir": "/var/folders/_m/72sdf7sd5gd24ck4f4v6vk7r0000gp/T/.com.google.Chrome.eVDIf2"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:64241"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "cd71e8a5894b9afe15f1ea957b2aca21"
+}
+[1591134333.529][INFO]: [cd71e8a5894b9afe15f1ea957b2aca21] COMMAND Navigate {
+   "url": "https://jqueryui.com/droppable/"
+}
+[1591134333.529][INFO]: Waiting for pending navigations...
+[1591134333.530][INFO]: Done waiting for pending navigations. Status: ok
+[1591134335.588][INFO]: Waiting for pending navigations...
+[1591134336.531][INFO]: Done waiting for pending navigations. Status: ok
+[1591134336.531][INFO]: [cd71e8a5894b9afe15f1ea957b2aca21] RESPONSE Navigate
+[1591134336.537][INFO]: [cd71e8a5894b9afe15f1ea957b2aca21] COMMAND SwitchToFrame {
+   "id": 0
+}
+[1591134336.537][INFO]: Waiting for pending navigations...
+[1591134336.538][INFO]: Done waiting for pending navigations. Status: ok
+[1591134336.551][INFO]: Waiting for pending navigations...
+[1591134336.552][INFO]: Done waiting for pending navigations. Status: ok
+[1591134336.552][INFO]: [cd71e8a5894b9afe15f1ea957b2aca21] RESPONSE SwitchToFrame
+[1591134336.560][INFO]: [cd71e8a5894b9afe15f1ea957b2aca21] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#draggable"
+}
+[1591134336.560][INFO]: Waiting for pending navigations...
+[1591134336.561][INFO]: Done waiting for pending navigations. Status: ok
+[1591134336.571][INFO]: Waiting for pending navigations...
+[1591134336.572][INFO]: Done waiting for pending navigations. Status: ok
+[1591134336.572][INFO]: [cd71e8a5894b9afe15f1ea957b2aca21] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "2d7a2257-a4c8-4a0f-a5a5-f42c574cac61"
+}
+[1591134336.577][INFO]: [cd71e8a5894b9afe15f1ea957b2aca21] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#droppable"
+}
+[1591134336.577][INFO]: Waiting for pending navigations...
+[1591134336.578][INFO]: Done waiting for pending navigations. Status: ok
+[1591134336.588][INFO]: Waiting for pending navigations...
+[1591134336.588][INFO]: Done waiting for pending navigations. Status: ok
+[1591134336.588][INFO]: [cd71e8a5894b9afe15f1ea957b2aca21] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9eada1bc-539a-4b1e-8002-59ae5d68b334"
+}
+[1591134336.604][INFO]: [cd71e8a5894b9afe15f1ea957b2aca21] COMMAND PerformActions {
+   "actions": [ {
+      "actions": [ {
+         "duration": 100,
+         "origin": {
+            "ELEMENT": "2d7a2257-a4c8-4a0f-a5a5-f42c574cac61",
+            "element-6066-11e4-a52e-4f735466cecf": "2d7a2257-a4c8-4a0f-a5a5-f42c574cac61"
+         },
+         "type": "pointerMove",
+         "x": 0,
+         "y": 0
+      }, {
+         "button": 0,
+         "type": "pointerDown"
+      }, {
+         "duration": 100,
+         "origin": {
+            "ELEMENT": "9eada1bc-539a-4b1e-8002-59ae5d68b334",
+            "element-6066-11e4-a52e-4f735466cecf": "9eada1bc-539a-4b1e-8002-59ae5d68b334"
+         },
+         "type": "pointerMove",
+         "x": 0,
+         "y": 0
+      }, {
+         "button": 0,
+         "type": "pointerUp"
+      } ],
+      "id": "default mouse",
+      "parameters": {
+         "pointerType": "mouse"
+      },
+      "type": "pointer"
+   } ]
+}
+[1591134336.604][INFO]: Waiting for pending navigations...
+[1591134336.605][INFO]: Done waiting for pending navigations. Status: ok
+[1591134336.880][INFO]: Waiting for pending navigations...
+[1591134336.881][INFO]: Done waiting for pending navigations. Status: ok
+[1591134336.881][INFO]: [cd71e8a5894b9afe15f1ea957b2aca21] RESPONSE PerformActions
+[1591134341.890][INFO]: [cd71e8a5894b9afe15f1ea957b2aca21] COMMAND Quit {
+
+}
+[1591134341.940][INFO]: [cd71e8a5894b9afe15f1ea957b2aca21] RESPONSE Quit

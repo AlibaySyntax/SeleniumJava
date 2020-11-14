@@ -1,8 +1,0 @@
-package com.syntax34ExceptionHandlingAndFuncDev;
-
-import java.util.ArrayList;
-
-public class TryCatchFinaly {
-
-	public static void main(String[] args) {
-	}}

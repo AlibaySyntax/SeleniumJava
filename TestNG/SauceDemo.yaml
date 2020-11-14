@@ -1,0 +1,24 @@
+name: Suite
+configFailurePolicy: skip
+tests:
+  - name: Test
+  classes:
+    - RevNG5LoginPage.SauceDemoTest
+    - testNG2Assert.TaskOne
+    - testNG2Assert.LoginTest
+    - testNG2Assert.Mohamad
+    - com.Utils.BaseClass
+    - testNG3FrameworkEnh.HW
+    - testNG3FrameworkEnh.LoginTest
+    - testNG1Intro.DifferentAnnotation
+    - testNG1Intro.TestDemo
+    - testNG2Assert.SoftAssertionDemo
+    - testNG4Groups.GroupsDemo
+    - testNG3FrameworkEnh.sauceDemoTask
+    - testNG5.ListenetDemo
+    - testNG2Assert.HW
+    - testNG1Intro.TitleLogoAndLoginValidation
+    - testNG3FrameworkEnh.AddEmployeeTest
+    - testNG4Groups.DemoProvideDemo
+    - testNG1Intro.TaskTwo
+
