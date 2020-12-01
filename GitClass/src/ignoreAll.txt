@@ -1,0 +1,130 @@
+'Root'@'localhost'
+
+Password = Tuzik1234
+
+export JAVA_HOME=${/usr/libexec/java_home}
+export PATH=${PATH}:/usr/local/mysql/bin/
+-----------------------------------------------------------------------------------------
+Commands in Terminal:
+pwd -> 
+Ls -al -> 
+mysql -u root -p
+
+Change Password:
+AFTER USER'Root'@'localhost' IDENTIFIED BY 'Tuzik1234';
+-----------------------------------------------------------------------------------------
+apple@MacBook-Pro Desktop % mysql -u root -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 10
+Server version: 8.0.21 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> -----------------------------------------------------------------------------------------
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+4 rows in set (0.01 sec)
+
+mysql> use mysql;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> show tables;
++---------------------------+
+| Tables_in_mysql           |
++---------------------------+
+| columns_priv              |
+| component                 |
+| db                        |
+| default_roles             |
+| engine_cost               |
+| func                      |
+| general_log               |
+| global_grants             |
+| gtid_executed             |
+| help_category             |
+| help_keyword              |
+| help_relation             |
+| help_topic                |
+| innodb_index_stats        |
+| innodb_table_stats        |
+| password_history          |
+| plugin                    |
+| procs_priv                |
+| proxies_priv              |
+| role_edges                |
+| server_cost               |
+| servers                   |
+| slave_master_info         |
+| slave_relay_log_info      |
+| slave_worker_info         |
+| slow_log                  |
+| tables_priv               |
+| time_zone                 |
+| time_zone_leap_second     |
+| time_zone_name            |
+| time_zone_transition      |
+| time_zone_transition_type |
+| user                      |
++---------------------------+
+33 rows in set (0.00 sec)
+
+mysql> 
+
+Name: 
+use SQLExcel; SQLExcel
+Host:
+127.0.0.1
+Port:
+3306
+Login User:
+root
+Current User:
+root@localhost
+SSL cipher:
+TLS_AES_256_GCM_SHA384
+
+***************************sql-PATH 
+/Users/apple/.ssh/config
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
